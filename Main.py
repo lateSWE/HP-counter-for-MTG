@@ -1,5 +1,11 @@
 from tkinter import *
 
 window = Tk()
-window.title("Title, YaY")
-window.mainloop()
+
+
+def start():
+    window.title("Title, YaY")
+    window.mainloop()
+
+
+start()
